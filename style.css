@@ -1,0 +1,21 @@
+.bg-blue-gray {
+    background-color: #edf2f5;
+}
+
+.left-0 {
+    left: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+.w-500p {
+    width: 500px!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}

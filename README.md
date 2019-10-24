@@ -6,14 +6,26 @@ For detailed instruction's, view Solodev's [How to Use Absolute Positioning with
 
 ## Demo
   		  
-Try out a working example on [JSFiddle]().
+Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/54agr8kp/1/).
 
 ## HTML
 
 The tutorial contains the following basic HTML markup.
 
 ```
-
+<section>
+	<div class="container position-relative py-lg-6 py-5">
+		<div class="row">
+			<h2 class="display-4 mb-0 text-white">Be part of the <span class="d-block font-weight-bold">Lunar XPerience</span></h2>
+			<p class="lead my-4 text-white">If you're an explorer, then the moon is calling.
+				<br>Join the LunarXP mission where new worlds await.</p>
+			<div class="spacer"></div>
+		</div>
+		<div class="position-absolute left-0 w-100 text-center d-md-block image-container">
+			<img alt="Support Crew" src="images/image.png" class="pt-5">
+		</div>
+	</div>
+</section>
 ```
 
 ## CSS
